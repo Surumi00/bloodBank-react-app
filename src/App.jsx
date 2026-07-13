@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Homepage from './assets/components/Homepage'
 import AddDonour from './assets/components/AddDonour'
+import ViewDonour from './assets/components/ViewDonour'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <>
       <Homepage/>
       <AddDonour/>
+      <ViewDonour/>
     </>
   )
 }
